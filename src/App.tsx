@@ -1,7 +1,6 @@
-import { Test } from 'components/Test';
-import { Todo } from 'features/Todo';
+import { Test } from '@Components/Test';
+import { Todo } from '@Features/Todo';
 import React, { ReactNode, useState } from 'react';
-import './App.css';
 
 type Props = {
     onChange?(num: number): void;
